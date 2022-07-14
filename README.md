@@ -5,6 +5,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 Inspired by:
 [The Prime Number Spiral (Coding Challenge 167)](https://www.youtube.com/watch?v=a35KWEjRvc0)
 
+
+![prime spiral.png](https://raw.githubusercontent.com/Yuu-Kuuhaku/ulam-spiral/master/src/assets/prime%20spiral.png)
+
+![PrimeNumberSpiral.gif](https://raw.githubusercontent.com/Yuu-Kuuhaku/ulam-spiral/master/src/assets/PrimeNumberSpiral.gif)
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
