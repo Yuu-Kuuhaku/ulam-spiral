@@ -16,7 +16,7 @@ export class VisorComponent implements OnInit {
 
   spacies = new Array();
 
-  stepSize = 10;
+  stepSize = 2;
   numSteps = 1;
   state = 0;
 

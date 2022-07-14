@@ -1,7 +1,9 @@
-<div [ngClass]="{'wrap_left': direction == 'left','wrap_rigth':  direction == 'rigth', 'wrap_up': direction =='up', 'wrap_down': direction == 'down'}" [style.width]="width+ 'px'" [style.height]="height+ 'px'"  >
-  <span *ngIf="showIcon">
-    <svg [attr.width]="width" [attr.height]="height">
+<div  [style.width]="width+ 'px'" [style.height]="height+ 'px'"  >
+  <!-- <div [ngClass]="{'wrap_left': direction == 'left','wrap_rigth':  direction == 'rigth', 'wrap_up': direction =='up', 'wrap_down': direction == 'down'}" [style.width]="width+ 'px'" [style.height]="height+ 'px'"  > -->
+  <div class="circle" [style.width]="width +'px'" [style.height]="height +'px'"  *ngIf="showIcon">
+
+    <!-- <svg [attr.width]="width" [attr.height]="height">
       <circle [attr.cx]="width /2" [attr.cy]="height /2" [attr.r]="radio" stroke="black" stroke-width="1" fill="white" />
-    </svg>
-  </span>
+    </svg> -->
+  </div>
 </div>
