@@ -1,0 +1,13 @@
+<div class="container-visor" [style.width]="width+'px'"  [style.height]="height + 'px'">
+
+  <app-space-visor style="position: absolute; "
+    [style.top]="space.y+ 'px'"
+    [style.left]="space.x+ 'px'"
+    [value]="space.value"
+    [width]="stepSize"
+    [height]="stepSize"
+    [stepSize]="stepSize"
+    [direction]="space.direction"
+
+    *ngFor="let space of spacies" ></app-space-visor>
+</div>
